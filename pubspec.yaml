@@ -1,0 +1,28 @@
+name: online_shop
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter application.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.3.8
+  infinite_scroll_pagination: ^3.1.0
+  flutter_rating_bar: ^4.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets:
+    - assets/logos/
+    - assets/images/
+    - assets/images/clothes/
+    - assets/images/star/
+  uses-material-design: true
+
